@@ -176,7 +176,7 @@ def send_usage_statistics(target_host):
 
     try:
         ga_endpoint = 'https://www.google-analytics.com/collect'
-        ga_tracking_id = 'UA-110383676-1'
+        ga_tracking_id = ''
 
         app_id = os.getenv('APPLICATION_ID')
         build_url = os.getenv('BUILD_URL')
